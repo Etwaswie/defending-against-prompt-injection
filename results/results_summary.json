@@ -1,0 +1,20 @@
+{
+  "model": "Qwen2.5-3B-Instruct",
+  "asr_results": {
+    "none": 79.33333333333333,
+    "reminder": 79.33333333333333,
+    "sandwich": 2.666666666666667,
+    "defensive_token": 0.0
+  },
+  "embedding_stats": {
+    "dt_norms": [
+      104.79124450683594,
+      97.08332061767578,
+      111.36687469482422,
+      104.39488983154297,
+      85.255615234375
+    ],
+    "vocab_norm_mean": 0
+  },
+  "num_eval_samples": 208
+}
