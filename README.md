@@ -35,7 +35,7 @@ Defensive Tokens have **negligible impact** on model quality for benign queries:
 
 PCA visualization shows that defensive token embeddings lie far from the vocabulary embedding space and have **anomalously large norms** (~100 vs ~1 for normal tokens), acting as "signal flags" that switch the model into a secure mode.
 
-![PCA Visualization](images/pca_visualization.png)
+![PCA Visualization](results/embeddings_pca.png)
 
 ## 🏗️ Architecture
 [DT1][DT2][DT3][DT4][DT5] + [SYSTEM] + [USER] + [DATA] → LLM → Safe Response
